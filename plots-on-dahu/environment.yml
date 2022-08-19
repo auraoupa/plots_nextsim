@@ -1,0 +1,37 @@
+name: ice
+channels:
+  - conda-forge
+dependencies:
+  - gdal
+  - cartopy
+  - cython
+  - pykdtree
+  - pip
+  - pip:
+    - cmocean
+    - geodataset
+    - ipdb
+    - ipython
+    - jupyter
+    - matplotlib
+    - mock
+    - netcdf4
+    - netcdftime
+    - nose
+    - notebook
+    - numpy
+    - pandas
+    - paramiko
+    - pillow
+    - pygrib
+    - pyproj
+    - pyresample
+    - pyshp
+    - pytest
+    - pyyaml
+    - rtree
+    - scikit-image
+    - scikit-learn
+    - scipy
+    - shapely
+    - xarray
