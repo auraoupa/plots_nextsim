@@ -1,7 +1,7 @@
 # location of config files and master scripts
 export NEXTSIM_CODE_DIR=/bettik/alberta/n/nextsim200
 export NEXTSIM_TOOLS_DIR=/bettik/alberta/n/nextsim-tools
-export NEXTSIM_OUTPUT_DIR=/bettik/alberta/plots_nextsim/sing-nextsim-tools
+export NEXTSIM_OUTPUT_DIR=/bettik/alberta/plots_nextsim/nextsim-tools-on-dahu
 export NEXTSIM_DATA_DIR=/bettik/alberta/small-arctic-10km-sidfex
 
 # singularity image
