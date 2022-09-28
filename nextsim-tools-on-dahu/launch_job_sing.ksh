@@ -1,7 +1,7 @@
 #oarsub -I --project data-ocean -t devel -l /nodes=1,core=10,walltime=0:30:00
 #oarsub -I --project data-ocean -l /nodes=1,core=10,walltime=3:10:00
 
-arsub -I --project data-ocean -t fat -l /nodes=1,core=10,walltime=3:30:00
+oarsub -I --project data-ocean -t fat -l /nodes=1,core=10,walltime=3:30:00
 
 
 #on the attributed node
