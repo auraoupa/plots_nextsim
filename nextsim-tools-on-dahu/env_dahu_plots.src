@@ -2,10 +2,11 @@
 export NEXTSIM_CODE_DIR=/bettik/alberta/n/nextsim200
 export NEXTSIM_TOOLS_DIR=/bettik/alberta/n/nextsim-tools
 export NEXTSIM_OUTPUT_DIR=/bettik/alberta/plots_nextsim/nextsim-tools-on-dahu
+export NEXTSIM_PLOTS_DIR=/bettik/alberta/plots_nextsim/plots-on-dahu
 export NEXTSIM_DATA_DIR=/bettik/alberta/small-arctic-10km-sidfex
 
 # singularity image
 export NEXTSIM_IMAGE_NAME=/bettik/alberta/singularity/pynextsimf_shom_07.sif
 
 #bind paths
-export SINGULARITY_BIND="$NEXTSIM_CODE_DIR:/nextsim,$NEXTSIM_TOOLS_DIR:/tools,$NEXTSIM_OUTPUT_DIR:/output,$NEXTSIM_DATA_DIR:/data"
+export SINGULARITY_BIND="$NEXTSIM_CODE_DIR:/nextsim,$NEXTSIM_TOOLS_DIR:/tools,$NEXTSIM_OUTPUT_DIR:/output,$NEXTSIM_PLOTS_DIR:/plots,$NEXTSIM_DATA_DIR:/data"
